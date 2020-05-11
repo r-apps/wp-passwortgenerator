@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>MILOLA</Machine>
+    <WindowsUser>Rubeen</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>70d4e3ff-376c-4898-aabe-b064a07ee2ae</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Rubeen\Documents\Visual Studio 2015\Projects\Im Store\Passwortgenerator\Passwortgenerator\obj\x64\Release\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>34E47F1DA1274B3C0494706C942DFD4F9DE947256024B676CCCA35DE6344CE02</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>16120Rubeen.DerPasswortgenerator_2.0.0.0_x64__97pfhx27jxg9g</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>16120Rubeen.DerPasswortgenerator_97pfhx27jxg9g!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>16120Rubeen.DerPasswortgenerator</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=6E866A0C-0560-4260-A234-CAF3879E3374</RegisteredPackagePublisher>
+    <RegisteredVersion>2.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Rubeen\Documents\Visual Studio 2015\Projects\Im Store\Passwortgenerator\Passwortgenerator\bin\x64\Release\ilc\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-22T22:33:03.086</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Rubeen\Documents\Visual Studio 2015\Projects\Im Store\Passwortgenerator\Passwortgenerator\bin\x64\Release\ilc\ApplicationInsights.config">
+      <PackagePath>ApplicationInsights.config</PackagePath>
+      <Modified>2015-12-18T10:08:13.571</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rubeen\Documents\Visual Studio 2015\Projects\Im Store\Passwortgenerator\Passwortgenerator\bin\x64\Release\ilc\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2015-10-10T20:13:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rubeen\Documents\Visual Studio 2015\Projects\Im Store\Passwortgenerator\Passwortgenerator\bin\x64\Release\ilc\Assets\LogoStore.scale-100.png">
+      <PackagePath>Assets\LogoStore.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-20T13:48:02.501</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rubeen\Documents\Visual Studio 2015\Projects\Im Store\Passwortgenerator\Passwortgenerator\bin\x64\Release\ilc\Assets\LogoStore.scale-125.png">
+      <PackagePath>Assets\LogoStore.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-20T13:47:55.832</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rubeen\Documents\Visual Studio 2015\Projects\Im Store\Passwortgenerator\Passwortgenerator\bin\x64\Release\ilc\Assets\LogoStore.scale-150.png">
+      <PackagePath>Assets\LogoStore.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-20T13:47:48.846</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rubeen\Documents\Visual Studio 2015\Projects\Im Store\Passwortgenerator\Passwortgenerator\bin\x64\Release\ilc\Assets\LogoStore.scale-200.png">
+      <PackagePath>Assets\LogoStore.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-20T13:47:35.118</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rubeen\Documents\Visual Studio 2015\Projects\Im Store\Passwortgenerator\Passwortgenerator\bin\x64\Release\ilc\Assets\LogoStore.scale-400.png">
+      <PackagePath>Assets\LogoStore.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-20T13:47:24.094</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rubeen\Documents\Visual Studio 2015\Projects\Im Store\Passwortgenerator\Passwortgenerator\bin\x64\Release\ilc\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-20T13:33:17.109</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rubeen\Documents\Visual Studio 2015\Projects\Im Store\Passwortgenerator\Passwortgenerator\bin\x64\Release\ilc\Assets\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-20T13:33:06.219</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rubeen\Documents\Visual Studio 2015\Projects\Im Store\Passwortgenerator\Passwortgenerator\bin\x64\Release\ilc\Assets\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-20T13:32:54.334</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rubeen\Documents\Visual Studio 2015\Projects\Im Store\Passwortgenerator\Passwortgenerator\bin\x64\Release\ilc\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-20T13:32:23.622</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rubeen\Documents\Visual Studio 2015\Projects\Im Store\Passwortgenerator\Passwortgenerator\bin\x64\Release\ilc\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-20T13:31:19.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rubeen\Documents\Visual Studio 2015\Projects\Im Store\Passwortgenerator\Passwortgenerator\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-20T13:56:46.552</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rubeen\Documents\Visual Studio 2015\Projects\Im Store\Passwortgenerator\Passwortgenerator\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-125.png">
+      <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-20T13:57:11.756</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rubeen\Documents\Visual Studio 2015\Projects\Im Store\Passwortgenerator\Passwortgenerator\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-150.png">
+      <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-20T13:57:02.290</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rubeen\Documents\Visual Studio 2015\Projects\Im Store\Passwortgenerator\Passwortgenerator\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-20T13:56:34.700</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rubeen\Documents\Visual Studio 2015\Projects\Im Store\Passwortgenerator\Passwortgenerator\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-20T13:56:18.130</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rubeen\Documents\Visual Studio 2015\Projects\Im Store\Passwortgenerator\Passwortgenerator\bin\x64\Release\ilc\Assets\Square310x310Logo.scale-100.png">
+      <PackagePath>Assets\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-20T13:42:08.647</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rubeen\Documents\Visual Studio 2015\Projects\Im Store\Passwortgenerator\Passwortgenerator\bin\x64\Release\ilc\Assets\Square310x310Logo.scale-125.png">
+      <PackagePath>Assets\Square310x310Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-20T13:42:34.378</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rubeen\Documents\Visual Studio 2015\Projects\Im Store\Passwortgenerator\Passwortgenerator\bin\x64\Release\ilc\Assets\Square310x310Logo.scale-150.png">
+      <PackagePath>Assets\Square310x310Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-20T13:42:27.072</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rubeen\Documents\Visual Studio 2015\Projects\Im Store\Passwortgenerator\Passwortgenerator\bin\x64\Release\ilc\Assets\Square310x310Logo.scale-200.png">
+      <PackagePath>Assets\Square310x310Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-20T13:42:02.070</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rubeen\Documents\Visual Studio 2015\Projects\Im Store\Passwortgenerator\Passwortgenerator\bin\x64\Release\ilc\Assets\Square310x310Logo.scale-400.png">
+      <PackagePath>Assets\Square310x310Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-20T13:41:50.433</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rubeen\Documents\Visual Studio 2015\Projects\Im Store\Passwortgenerator\Passwortgenerator\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-20T13:45:40.392</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rubeen\Documents\Visual Studio 2015\Projects\Im Store\Passwortgenerator\Passwortgenerator\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-125.png">
+      <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-20T13:44:59.662</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rubeen\Documents\Visual Studio 2015\Projects\Im Store\Passwortgenerator\Passwortgenerator\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-150.png">
+      <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-20T13:44:53.811</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rubeen\Documents\Visual Studio 2015\Projects\Im Store\Passwortgenerator\Passwortgenerator\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-20T13:44:42.695</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rubeen\Documents\Visual Studio 2015\Projects\Im Store\Passwortgenerator\Passwortgenerator\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-20T13:44:35.508</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rubeen\Documents\Visual Studio 2015\Projects\Im Store\Passwortgenerator\Passwortgenerator\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-20T13:46:27.513</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rubeen\Documents\Visual Studio 2015\Projects\Im Store\Passwortgenerator\Passwortgenerator\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-16_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-20T13:46:27.513</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rubeen\Documents\Visual Studio 2015\Projects\Im Store\Passwortgenerator\Passwortgenerator\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-20T13:46:16.534</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rubeen\Documents\Visual Studio 2015\Projects\Im Store\Passwortgenerator\Passwortgenerator\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-20T13:46:16.534</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rubeen\Documents\Visual Studio 2015\Projects\Im Store\Passwortgenerator\Passwortgenerator\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-20T13:43:11.803</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rubeen\Documents\Visual Studio 2015\Projects\Im Store\Passwortgenerator\Passwortgenerator\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-256_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-20T13:43:11.803</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rubeen\Documents\Visual Studio 2015\Projects\Im Store\Passwortgenerator\Passwortgenerator\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-20T13:45:07.416</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rubeen\Documents\Visual Studio 2015\Projects\Im Store\Passwortgenerator\Passwortgenerator\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-48_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-20T13:45:07.416</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rubeen\Documents\Visual Studio 2015\Projects\Im Store\Passwortgenerator\Passwortgenerator\bin\x64\Release\ilc\Assets\Square71x71Logo.scale-100.png">
+      <PackagePath>Assets\Square71x71Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-20T13:57:42.829</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rubeen\Documents\Visual Studio 2015\Projects\Im Store\Passwortgenerator\Passwortgenerator\bin\x64\Release\ilc\Assets\Square71x71Logo.scale-125.png">
+      <PackagePath>Assets\Square71x71Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-20T13:58:05.354</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rubeen\Documents\Visual Studio 2015\Projects\Im Store\Passwortgenerator\Passwortgenerator\bin\x64\Release\ilc\Assets\Square71x71Logo.scale-150.png">
+      <PackagePath>Assets\Square71x71Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-20T13:57:54.660</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rubeen\Documents\Visual Studio 2015\Projects\Im Store\Passwortgenerator\Passwortgenerator\bin\x64\Release\ilc\Assets\Square71x71Logo.scale-200.png">
+      <PackagePath>Assets\Square71x71Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-20T13:57:33.399</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rubeen\Documents\Visual Studio 2015\Projects\Im Store\Passwortgenerator\Passwortgenerator\bin\x64\Release\ilc\Assets\Square71x71Logo.scale-400.png">
+      <PackagePath>Assets\Square71x71Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-20T13:57:25.484</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rubeen\Documents\Visual Studio 2015\Projects\Im Store\Passwortgenerator\Passwortgenerator\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-20T13:59:57.706</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rubeen\Documents\Visual Studio 2015\Projects\Im Store\Passwortgenerator\Passwortgenerator\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-125.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-20T14:00:19.796</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rubeen\Documents\Visual Studio 2015\Projects\Im Store\Passwortgenerator\Passwortgenerator\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-150.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-20T14:00:10.905</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rubeen\Documents\Visual Studio 2015\Projects\Im Store\Passwortgenerator\Passwortgenerator\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-20T13:59:19.995</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rubeen\Documents\Visual Studio 2015\Projects\Im Store\Passwortgenerator\Passwortgenerator\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-20T13:59:01.108</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rubeen\Documents\Visual Studio 2015\Projects\Im Store\Passwortgenerator\Passwortgenerator\bin\x64\Release\ilc\ClrCompression.dll">
+      <PackagePath>ClrCompression.dll</PackagePath>
+      <Modified>2015-12-17T23:07:18.404</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rubeen\Documents\Visual Studio 2015\Projects\Im Store\Passwortgenerator\Passwortgenerator\bin\x64\Release\ilc\Passwortgenerator.dll">
+      <PackagePath>Passwortgenerator.dll</PackagePath>
+      <Modified>2015-12-22T22:33:02.747</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rubeen\Documents\Visual Studio 2015\Projects\Im Store\Passwortgenerator\Passwortgenerator\bin\x64\Release\ilc\Passwortgenerator.exe">
+      <PackagePath>Passwortgenerator.exe</PackagePath>
+      <Modified>2015-12-22T22:33:03.066</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rubeen\Documents\Visual Studio 2015\Projects\Im Store\Passwortgenerator\Passwortgenerator\bin\x64\Release\ilc\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-12-22T22:32:28.513</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.2\1.2\">
+      <Name>Microsoft.NET.Native.Framework.1.2</Name>
+      <Version>1.2.23231.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.2, MinVersion = 1.2.23231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.2\1.2\.\arm\ret\Native\Microsoft.NET.Native.Framework.1.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.2\1.2\">
+      <Name>Microsoft.NET.Native.Framework.1.2</Name>
+      <Version>1.2.23231.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.2, MinVersion = 1.2.23231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.2\1.2\.\x64\ret\Native\Microsoft.NET.Native.Framework.1.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.2\1.2\">
+      <Name>Microsoft.NET.Native.Framework.1.2</Name>
+      <Version>1.2.23231.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.2, MinVersion = 1.2.23231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.2\1.2\.\x86\ret\Native\Microsoft.NET.Native.Framework.1.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\">
+      <Name>Microsoft.NET.Native.Runtime.1.1</Name>
+      <Version>1.1.23406.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.1, MinVersion = 1.1.23406.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\.\AppX\ARM\Microsoft.NET.Native.Runtime.1.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\">
+      <Name>Microsoft.NET.Native.Runtime.1.1</Name>
+      <Version>1.1.23406.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.1, MinVersion = 1.1.23406.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\.\AppX\x64\Microsoft.NET.Native.Runtime.1.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\">
+      <Name>Microsoft.NET.Native.Runtime.1.1</Name>
+      <Version>1.1.23406.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.1, MinVersion = 1.1.23406.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\.\AppX\x86\Microsoft.NET.Native.Runtime.1.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.22929.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.22929.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.22929.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.22929.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.22929.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.22929.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,2 @@
+MainPackage=C:\Users\Rubeen\documents\visual studio 2015\Projects\In Entwicklung\Passwortgenerator\Passwortgenerator\bin\x64\Release\Upload\Passwortgenerator_2.0.0.0_x64.appx
+SymbolPackage=C:\Users\Rubeen\documents\visual studio 2015\Projects\In Entwicklung\Passwortgenerator\Passwortgenerator\AppPackages\Passwortgenerator_2.0.0.0\Passwortgenerator_2.0.0.0_x64.appxsym

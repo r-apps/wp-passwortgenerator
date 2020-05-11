@@ -1,0 +1,2 @@
+C:\Users\Rubeen\documents\visual studio 2015\Projects\In Entwicklung\Passwortgenerator\Passwortgenerator\Passwortgenerator.csproj;x86
+C:\Users\Rubeen\documents\visual studio 2015\Projects\In Entwicklung\Passwortgenerator\PWGenerator\PWGenerator.csproj;x86

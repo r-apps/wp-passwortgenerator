@@ -1,0 +1,85 @@
+﻿<Page
+    x:Class="Passwortgenerator.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Passwortgenerator"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Page.Resources>
+        <MenuFlyout x:Key="ButtonFlyout">
+            <MenuFlyoutItem Text="Auswählen"/>
+            <MenuFlyoutItem Text="Kopieren"/>
+            <MenuFlyoutItem Text="Senden"/>
+        </MenuFlyout>
+    </Page.Resources>
+    <Page.BottomAppBar>
+        <CommandBar x:ConnectionId='1' x:Name="commandBar" Background="{ThemeResource SystemControlBackgroundAccentBrush}" Foreground="{ThemeResource SystemControlBackgroundAltHighBrush}">
+            <AppBarButton x:ConnectionId='2' x:Name="progress" IsEnabled="False">
+                <AppBarButton.Content>
+                    <ProgressRing x:ConnectionId='5' x:Name="ring" IsActive="False" Foreground="{Binding Foreground, ElementName=commandBar}" Background="{Binding Background, ElementName=commandBar}" />
+                </AppBarButton.Content>
+            </AppBarButton>
+            <AppBarButton x:ConnectionId='3' x:Name="appbbReload" Width="100" Label="Neue Passwörter erstellen"                             Margin="20,0" Icon="Refresh" Foreground="{Binding Foreground, ElementName=commandBar}" />
+            <AppBarButton x:ConnectionId='4' x:Name="appbbSettings" Width="100" Margin="20,0" Label="Einstellungen"                               Icon="Setting" Foreground="{Binding Foreground, ElementName=commandBar}" />
+        </CommandBar>
+    </Page.BottomAppBar>
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition />
+            <RowDefinition Height="48" />
+        </Grid.RowDefinitions>
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup x:ConnectionId='6' x:Name="Fenstergröße">
+                <VisualState x:ConnectionId='7' x:Name="Handy">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowHeight="0" MinWindowWidth="0"/>
+                    </VisualState.StateTriggers>
+                </VisualState>
+                <VisualState x:ConnectionId='8' x:Name="Tablet">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowHeight="640" MinWindowWidth="1024"/>
+                    </VisualState.StateTriggers>
+                </VisualState>
+                <VisualState x:ConnectionId='9' x:Name="Desktop">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowHeight="1280" MinWindowWidth="720"/>
+                    </VisualState.StateTriggers>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+        <TextBlock x:ConnectionId='10' x:Name="textHeader" HorizontalAlignment="Stretch" TextWrapping="NoWrap" Text="Passwortgenerator" VerticalAlignment="Top" Margin="10,0" Style="{StaticResource HeaderTextBlockStyle}" Foreground="{ThemeResource SystemControlForegroundAccentBrush}" Height="61" FontSize="40"/>
+        <Grid x:ConnectionId='11' x:Name="gridInhalt" Grid.Row="1" Margin="10,0" ScrollViewer.VerticalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollMode="Enabled">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="20"/>
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Rectangle Height="1" Fill="{StaticResource  SystemControlForegroundAccentBrush}" />
+            <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Visible">
+                <StackPanel x:ConnectionId='12' x:Name="stackInhalt">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition Width="30" />
+                            <ColumnDefinition Width="15" />
+                        </Grid.ColumnDefinitions>
+                        <TextBox Text="sdajkdsanjsadads" />
+                        <Button Content="..." Grid.Column="1" Flyout="{StaticResource ButtonFlyout}" />
+                    </Grid>
+                    <Grid Margin="0,10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition Width="30" />
+                            <ColumnDefinition Width="15" />
+                        </Grid.ColumnDefinitions>
+                        <TextBox Text="sdajkdsanjsadads" />
+                        <Button Content="..." Grid.Column="1" Flyout="{StaticResource ButtonFlyout}" />
+                    </Grid>
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+    </Grid>
+</Page>
+

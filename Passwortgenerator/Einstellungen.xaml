@@ -1,0 +1,72 @@
+﻿<Page
+    x:Class="Passwortgenerator.Einstellungen"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Passwortgenerator"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Page.BottomAppBar>
+        <CommandBar x:Name="commandBar" IsSticky="True" Background="{ThemeResource SystemControlBackgroundAccentBrush}" Foreground="{ThemeResource SystemControlBackgroundAltHighBrush}">
+            <AppBarButton x:Name="abbSave" Tapped="abbSave_Tapped" Width="120" Label="Speichern" Margin="20,0" Icon="Save" Foreground="{Binding Foreground, ElementName=commandBar}" />
+            <AppBarButton x:Name="abbAbbrechen" Tapped="abbAbbrechen_Tapped" Width="120" Margin="20,0" Label="Abbrechen" Icon="Cancel" Foreground="{Binding Foreground, ElementName=commandBar}" />
+        </CommandBar>
+    </Page.BottomAppBar>
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition />
+            <RowDefinition Height="48" />
+        </Grid.RowDefinitions>
+        <TextBlock x:Name="textHeader" HorizontalAlignment="Stretch" TextWrapping="NoWrap" Text="Einstellungen" VerticalAlignment="Top" Margin="10,0" Style="{StaticResource HeaderTextBlockStyle}" Foreground="{ThemeResource SystemControlForegroundAccentBrush}" Height="61"/>
+        <Grid x:Name="gridInhalt" Grid.Row="1" Margin="10,0" ScrollViewer.VerticalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollMode="Enabled">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="20"/>
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Rectangle Height="1" Fill="{StaticResource  SystemControlForegroundAccentBrush}" />
+            <StackPanel Grid.Row="1">
+                <Grid Margin="0,5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100" />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <TextBlock VerticalAlignment="Center" Text="Buchstaben:" />
+                    <ComboBox x:Name="cbBuchstaben" Grid.Column="1" HorizontalAlignment="Stretch" SelectedIndex="0">
+                        <ComboBoxItem Content="Groß- und Kleinbuchstaben" Tag="0" />
+                        <ComboBoxItem Content="Kleinbuchstaben" Tag="1" />
+                        <ComboBoxItem Content="Großbuchstaben" Tag="2" />
+                        <ComboBoxItem Content="Keine Buchstaben" Tag="3" />
+                    </ComboBox>
+                </Grid>
+                <Grid Margin="0,5">
+                    <ToggleSwitch x:Name="switchPW" Grid.Column="1" IsOn="True" OffContent="Zahlen sind nicht enthalten" OnContent="Passwort mit Zahlen" />
+                </Grid>
+                <Grid Margin="0,5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="120" />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <TextBlock VerticalAlignment="Center" Text="Sonderzeichen:" />
+                    <TextBox x:Name="tbSonder" Grid.Column="1" Text="äöüß[]*♥!=(){}\\~%?.-_₀₁₂₃₄₅₆₇₈₉±¾↑↓·←↗¤¼→™½¢ªµ'¯⁰¹²³⁴⁵⁶⁷⁸⁹♀¬°£$♂†…¥÷®º€¸§¶¨∞©" InputScope="Formula" PlaceholderText="Geben Sie hier alle verfügbaren Sonderzeichen ein." TextWrapping="Wrap" />
+                </Grid>
+                <Grid Margin="0,5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100" />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <TextBlock VerticalAlignment="Center" Text="Passwortlänge:" />
+                    <Slider x:Name="sliderlänge" Grid.Column="1" Minimum="1" Maximum="200" Value="20" TickFrequency="10" />
+                </Grid>
+                <Grid Margin="0,5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="150" />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <TextBlock VerticalAlignment="Center" Text="Anzahl der Passwörter:" />
+                    <Slider x:Name="slideranzahl" Grid.Column="1" Minimum="1" Maximum="50" Value="5" TickFrequency="5" />
+                </Grid>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>
